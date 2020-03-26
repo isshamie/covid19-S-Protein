@@ -6,7 +6,7 @@ Currently, the S protein is taken from NCBI along with apporximately 600 Sars-Co
 
 
 
-### Conservation across residues
+### Conservation (of most common amino acid) across residues histogram
 ![Conservation of most frequent amino acid per position](figures/sars_cov2/conservation_histogram.png)
 
 ### To run the server for EVZoom, go to the folder (currently figures/EVzoom) and type
