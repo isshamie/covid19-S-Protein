@@ -19,11 +19,10 @@ RESULTS = os.path.join(DATA_DIR, "processed")
 #RESULTS_DIR = os.path.join(ROOT_DIR, "models")
 FIGURES_DIR = os.path.join(ROOT_DIR, "figures")
 CONTACT_FIGURES_DIR = os.path.join(FIGURES_DIR, "contact")
-FIG_NET_DIR = os.path.join(FIGURES_DIR,"networks")
-PIPELINE_F = os.path.join(ROOT_DIR, "reports/pipeline/Pipeline.xlsx")
-DATA_FIG_DIR = os.path.join(DATA_DIR, "processed/figures")
+PAIR_COUPLINGS_FIGURES_DIR = os.path.join(FIGURES_DIR, "pair_couplings")
+GLYCO_PAIR_COUPLINGS_FIGURES_DIR = os.path.join(FIGURES_DIR, "glycosites_pair_couplings")
+
 PARAMS_DIR = os.path.join(ROOT_DIR, "parameters")
-TEST_DIR = os.path.join(ROOT_DIR, "tests")
 NUM_CORES = 32
 
 
@@ -32,7 +31,7 @@ NUM_CORES = 32
 # Create necessary directories
 ############
 
-dirs = [DATA_DIR, RESULTS, FIGURES_DIR, FIG_NET_DIR, DATA_FIG_DIR, TEST_DIR,CONTACT_FIGURES_DIR]
+dirs = [DATA_DIR, RESULTS, FIGURES_DIR,CONTACT_FIGURES_DIR, PAIR_COUPLINGS_FIGURES_DIR, GLYCO_PAIR_COUPLINGS_FIGURES_DIR]
 for d in dirs:
     if not os.path.exists(d):
         os.makedirs(d)
