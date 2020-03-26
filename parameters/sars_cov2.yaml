@@ -1,0 +1,4 @@
+ref_fasta: 'NC_045512.2.fasta'
+S_protein_name: "YP_009724390.1"
+annotation: 'GCF_009858895.2_ASM985889v3_genomic.gff' 
+
