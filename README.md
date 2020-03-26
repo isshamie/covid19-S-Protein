@@ -6,16 +6,17 @@ Currently, the S protein is taken from NCBI along with apporximately 600 Sars-Co
 
 
 
-### Conservation (of most common amino acid) across residues histogram
-![Conservation of most frequent amino acid per position](figures/sars_cov2/conservation_histogram.png)
+### 
+![Conservation (of most common amino acid) across residues histogram](figures/sars_cov2/conservation_histogram.png)
+
 
 ### To run the server for EVZoom, go to the folder (currently figures/EVzoom) and type
 `python -m http.server 8000` for python3  
 or `python -m SimpleHTTPServer 8000` for python2  
 https://github.com/debbiemarkslab/EVzoom
-
 then navigate to http://localhost:8000/example/sars_cov2_S_protein.html
 
+![Sample of EVzoom snapshot](figures/sample_S_sars_cov2.png)
 
 ### To Do:
 - Generate potentiall most impactful glycan list (currently can be seen in figures, but not in a text file)
