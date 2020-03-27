@@ -1,7 +1,7 @@
 # covid19-S-Protein
 This analysis runs multiple sequence analysis followed by EVCouplings to determine co-varying amino acid pairs.
 
-Currently, the S protein is taken from NCBI along with apporximately 600 Sars-Cov2 genomes sequences from GISAID. Due to privacy, the sequences themselves will not be here but can be downloaded from their site upon making an account.
+Currently, the S protein is taken from NCBI along with approximately 600 Sars-Cov2 genomes sequences from GISAID. Due to privacy, the sequences themselves will not be here but can be downloaded from their site upon making an account.
 
 
 
