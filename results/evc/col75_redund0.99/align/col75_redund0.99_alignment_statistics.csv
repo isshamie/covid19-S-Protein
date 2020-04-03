@@ -1,0 +1,2 @@
+prefix,minimum_column_coverage,num_seqs,seqlen,num_cov,num_lc,perc_cov,1st_uc,last_uc,len_cov,num_lc_cov,N_eff
+../data/processed/evc/col75_redund0.99/align/col75_redund0.99,0.750,2469,1273,1273,0,1.000,1,1273,1273,0,193.190

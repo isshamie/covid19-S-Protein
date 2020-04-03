@@ -1,4 +1,5 @@
 /old/
+raw/
 *svg
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -78,8 +79,9 @@ target/
 .ipynb_checkpoints/
 
 # exclude data from source control by default
-/data/
-
+#/data/
+/data/raw/
+data/
 # Mac OS-specific storage files
 .DS_Store
 

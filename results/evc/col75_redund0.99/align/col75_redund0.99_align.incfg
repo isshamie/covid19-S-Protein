@@ -1,0 +1,41 @@
+cns: null
+compute_num_effective_seqs: true
+cpu: 16
+extract_annotation: true
+first_index: 1
+hhfilter: /home/isshamie/software/anaconda2/envs/coevolve/bin/hhfilter
+hmmbuild: /home/isshamie/software/anaconda2/envs/coevolve/bin/hmmbuild
+hmmsearch: /home/isshamie/software/anaconda2/envs/coevolve/bin/hmmsearch
+input_alignment: ../data/processed/msa/clean/S_protein.msa.fasta
+jackhmmer: /home/isshamie/software/anaconda2/envs/coevolve/bin/jackhmmer
+maxcluster: null
+minimum_column_coverage: 75
+minimum_sequence_coverage: 0
+override_annotation_file: ../data/processed/seqs/covid_annotations.csv
+pdb_mmtf_dir: null
+plmc: /data2/isshamie/coevolve/software/plmc/bin/plmc
+prefix: ../data/processed/evc/col75_redund0.99/align/col75_redund0.99
+protocol: existing
+psipred: null
+region: null
+seqid_filter: null
+sequence_download_url: http://www.uniprot.org/uniprot/{}.fasta
+sequence_file: ../data/processed/msa/clean/S_protein.msa.fasta
+sequence_id: hCoV_19AnhuiSZ0052020_EPI_ISL_413485_2020_01_24
+sifts_mapping_table: /n/groups/marks/databases/SIFTS/pdb_chain_uniprot_plus_current.o2.csv
+sifts_sequence_db: /n/groups/marks/databases/SIFTS/pdb_chain_uniprot_plus_current.o2.fasta
+theta: !!python/object/new:ruamel.yaml.scalarfloat.ScalarFloat
+  args:
+  - 0.99
+  state:
+    _e_sign: null
+    _e_width: null
+    _exp: null
+    _m_lead0: 1
+    _m_sign: false
+    _prec: 1
+    _underscore: null
+    _width: 4
+uniprot: /n/groups/marks/databases/jackhmmer/uniprot/uniprot_current.o2.fasta
+uniref100: /data2/isshamie/coevolve/data/external/uniref100/uniref100.fasta
+uniref90: /n/groups/marks/databases/jackhmmer/uniref90/uniref90_current.o2.fasta

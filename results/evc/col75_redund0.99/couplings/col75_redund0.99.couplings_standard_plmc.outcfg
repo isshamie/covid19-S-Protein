@@ -1,0 +1,11 @@
+couplings_file: ../data/processed/evc/col75_redund0.99/couplings/col75_redund0.99_ECs.txt
+effective_samples: 12.0
+focus_seq_index: 1
+iteration_table: ../data/processed/evc/col75_redund0.99/couplings/col75_redund0.99_iteration_table.csv
+num_total_seqs: 2469
+num_total_sites: 1273
+num_valid_seqs: 1918
+num_valid_sites: 1273
+optimization_status: ROUNDING_ERROR
+param_file: ../data/processed/evc/col75_redund0.99/couplings/col75_redund0.99.model
+region_start: 1

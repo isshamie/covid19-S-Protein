@@ -1,5 +1,0 @@
-data/test
-build/
-node_modules/
-**/*.params
-*.sublime-workspace
