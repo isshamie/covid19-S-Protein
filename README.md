@@ -23,16 +23,18 @@ Old versions might be removed, but if interested you can reach out to isshamie@u
 - The animal viruses will be removed
 - The local alignment will be replaced by an alignment from a colleague. From these, very few had gaps, and there was one sequence with 1272, and one with 1270, along with <5 sequences that were smaller and removed.
 - Some amino acids are labelled 'X' which is arbitrary aa. I need to look into why I am getting those- is it due to the genome sequences from GISAID, or something downstream?
-
+- Overlay the domain region with the plots.
 ### 
-![Conservation (of most common amino acid) across residues histogram](results/figures/sars_cov2/conservation_histogram.png)
+![Conservation (of most common amino acid) across residues histogram](results/figures/conservation/conservation_histogram.png)
 
-
+### Pairwise matrix of probability scores of coupling. Bar is probability (0-1). Marginal probabilities are conservation score (they are symmetric, the plotting may distort the shape slightly)
 ![Coupling matrix](results/figures/contact/col75_redund0.99_pval.png)
 
+### Top overall coupling pairs
 ![Top coupling pairs](results/figures/pair_couplings/rank1_998_1110.png)
 ![Top coupling pairs 2](results/figures/pair_couplings/rank2_322_373.png)
 
+### Top pairs either across glycosites, or nearby sites.
 ![Top Glycosite pairs](results/figures/glycosites_pair_couplings/rank1_14_16.png)
 ![Top Glycosite pairs 2](results/figures/glycosites_pair_couplings/rank2_231_233.png)
 ![Top Glycosite pairs 3](results/figures/glycosites_pair_couplings/rank3_149_164.png)
