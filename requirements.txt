@@ -91,7 +91,7 @@ natsort==6.0.0
 nbconvert==5.6.0
 nbformat==4.4.0
 networkx==2.3
-notebook==6.0.0
+notebook==6.1.5
 numba==0.45.1
 -e git+https://github.com/isshamie/parallel_helper@0aae037a540006eb2ed21fe3b5e6227e13d70ab0#egg=numpanpar
 numpy==1.17.0
