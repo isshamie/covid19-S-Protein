@@ -137,7 +137,7 @@ python-dotenv==0.10.3
 python-irodsclient==0.7.0
 python-louvain==0.13
 pytz==2019.2
-PyYAML==5.1.2
+PyYAML==5.4
 pyzmq==18.0.2
 qtconsole==4.5.2
 ratelimiter==1.2.0
